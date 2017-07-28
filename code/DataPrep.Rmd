@@ -1,0 +1,21 @@
+---
+title: "DataPrep"
+author: "Yet Nguyen"
+date: "7/27/2017"
+output: html_notebook
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, root.dir ="")
+library(ggplot2)
+library(plotly)
+library(DT)
+```
+
+Generating data
+```{r}
+set.seed(2)
+dataout <- rnorm(10000)
+saveRDS(dataout, file = "../data/datout.rds")
+```
+

@@ -1,0 +1,25 @@
+---
+title: "Test Makefile"
+output: 
+  html_notebook:
+    code_folding: hide
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, root.dir ="")
+library(ggplot2)
+library(plotly)
+library(DT)
+```
+
+Load data
+```{r load_data}
+datout <- readRDS(file = "../data/datout.rds")
+```
+
+histogram of the data
+```{r}
+hist(datout, nclass = 100)
+```
+
