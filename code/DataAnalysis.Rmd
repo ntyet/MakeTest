@@ -23,3 +23,8 @@ histogram of the data
 hist(datout, nclass = 100)
 ```
 
+summary data
+```{r}
+summary(datout)
+```
+

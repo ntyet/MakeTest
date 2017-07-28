@@ -15,7 +15,7 @@ library(DT)
 Generating data
 ```{r}
 set.seed(2)
-dataout <- rnorm(10000)
-saveRDS(dataout, file = "../data/datout.rds")
+datout <- rnorm(10000)
+saveRDS(datout, file = "../data/datout.rds")
 ```
 
