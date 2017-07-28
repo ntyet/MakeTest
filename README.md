@@ -1,5 +1,5 @@
-##This is a test of makefile
-
+This is a test of makefile
+-----
 In terminal, go to the directory *MakeTest/code*, then run *make*.
 
 First, I run `make` when *DataAnalysis.Rmd* only does `hist(datout, nclass = 100)`, the `make` command returns DataAnalysis.nb.html exactly as expected. 
