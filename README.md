@@ -2,7 +2,7 @@ This is a test of makefile
 -----
 In terminal, go to the directory *MakeTest/code*, then run *make*.
 
-First, I run `make` when *DataAnalysis.Rmd* only does `hist(datout, nclass = 100)`, the `make` command returns DataAnalysis.nb.html exactly as expected. 
+First, I run `make` when *DataAnalysis.Rmd* only does `hist(datout, nclass = 100)`, the `make` command returns *DataAnalysis.nb.html* exactly as expected. 
 
 Then, I add `summary(datout)` to *DataAnalysis.Rmd* file, then run `make` again. It turns out that *DataAnalysis.nb.html* was not updated, instead, the terminal returned a message 
 
